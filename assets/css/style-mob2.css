@@ -1,0 +1,90 @@
+@media(max-width:768px){
+    header, .mail{
+        display: none;
+    }
+    .article1 img{
+        width: 335px;
+        height: 316px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+    .container{
+        padding: 0 10px;
+        max-width: 768px;
+        width: 100%;
+    }
+    .article2-div2 h1{
+        width: 335px;
+    }
+    .article2-div2 h2{
+        width: 279px;
+    }
+    .article2-div2 p{
+        width: 330px;
+    }
+    footer{
+        max-width: 375px;
+        width: 100%;
+        height: 326px;
+        margin: 50px 0;
+        margin-bottom: 100px;
+    }
+    .li-row, .li-row2{
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .li-row2{
+        align-items: end;
+    }
+    .row{
+        display: flex;
+        flex-direction: row;
+        width: 175px;
+        height: 205px;
+    }
+    .buttons{
+        display: block;
+        background-color: #FFFFFF;
+        border-radius: 24px 24px 0 0;
+        width: 375px;
+        height: 72px;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        bottom: 0;
+    }
+    .gilaki{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    .gilaki img{
+        width: 24px;
+        height: 24px;
+        opacity: 90%;
+    }
+    .gilaki h1{
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .gilaki-f{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .isari-bg{
+        background-color: #29B24E;
+        border-radius: 12px;
+        width: 56px;
+        height: 56px;
+        position: absolute;
+        top: -30px;
+        padding: 16px;
+    }
+    .gilaki-t{
+        position: absolute;
+        top: 30px;
+    }
+}

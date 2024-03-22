@@ -324,136 +324,6 @@ footer{
 .buttons{
     display: none;
 }
-@media(max-width:768px){
-    nav, .button-div, .section2-div input, .mail{
-        display: none;
-    }
-    .container{
-        padding: 0 10px;
-        max-width: 768px;
-        width: 100%;
-    }
-    .article{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .main-img{
-        max-width: 335px;
-        height: 435px;
-        width: 100%;
-        margin-left: 10px;
-    }
-    .section2-div h1{
-        max-width: 241px;
-        width: 100%;
-        font-size: 24px;
-        line-height: 36px;
-        top: 50px;
-        left: 50px;
-        text-align: center;
-    }
-    .section2 h2{
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 21px;
-        top: 120px;
-        left: 30px;
-    }
-    .frame{
-        top: 190px;
-        left: 280px;
-    }
-    .section3-div h2{
-        margin-top: 20px;
-    }
-    footer{
-        max-width: 375px;
-        width: 100%;
-        height: 326px;
-        margin: 50px 0;
-        margin-bottom: 100px;
-    }
-    .search-frame{
-        top: 12px;
-        left: 12px;
-    }
-    .frame-back{
-        width: 44px;
-        height: 44px;
-        border-radius: 24px;
-        background-color: #F8F8F8;
-        top: -90px;
-        left: 305px;
-        position: absolute;
-    }
-    #logo{
-        margin-left: 10px;
-    }
-    .zoli2{
-        margin-top: 1px;
-    }
-    .li-row, .li-row2{
-        height: 30px;
-        display: flex;
-        flex-direction: column;
-    }
-    .li-row2{
-        align-items: end;
-    }
-    .row{
-        display: flex;
-        flex-direction: row;
-        width: 175px;
-        height: 205px;
-    }
-    .buttons{
-        display: block;
-        background-color: #FFFFFF;
-        border-radius: 24px 24px 0 0;
-        width: 375px;
-        height: 72px;
-        padding: 20px;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-        bottom: 0;
-    }
-    .gilaki{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-    }
-    .gilaki img{
-        width: 24px;
-        height: 24px;
-        opacity: 90%;
-    }
-    .gilaki h1{
-        font-size: 11px;
-        font-weight: 500;
-    }
-    .gilaki-f{
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .isari-bg{
-        background-color: #29B24E;
-        border-radius: 12px;
-        width: 56px;
-        height: 56px;
-        position: absolute;
-        top: -30px;
-        padding: 16px;
-    }
-    .gilaki-t{
-        position: absolute;
-        top: 30px;
-    }
-}
-
-
-
 .article1 img{
     max-width: 810px;
     height: 732px;
@@ -510,7 +380,7 @@ footer{
     margin-top: 30px;
 }
 .article2-div2 h1{
-    width: 618px;
+    max-width: 618px;
     opacity: 90%;
     font-size: 22px;
     font-weight: 600;
@@ -535,6 +405,7 @@ footer{
 }
 .zoli3{
     width: 786px;
+    width: 100%;
     height: 1px;
     background-color: #ECECEC;
 }
@@ -550,4 +421,84 @@ footer{
 }
 .spb{
     justify-content: space-between;
+}
+.sia1{
+    margin-top: 20px;
+}
+.sia1 h2, .s2{
+    font-size: 12px;
+    opacity: 60%;
+    line-height: 23px;
+    font-weight: 400;
+}
+.sia1 h1{
+    font-size: 14px;
+    opacity: 80%;
+    line-height: 23px;
+    font-weight: 500;
+}
+.m-b{
+    margin-bottom: 20px;
+}
+.sia2{
+    margin-top: 20px;
+}
+.sia2 p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    opacity: 80%;
+    max-width: 133px;
+    width: 100%;
+}
+.sia{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+}
+.zoli3-2{
+    margin-top: 50px;
+}
+.price h1{
+    color: #29B24E;
+    line-height: 54px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+.price span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.b-1{
+    border-radius: 12px;
+    border: 1px solid #29B24E;
+    padding: 13px 26px;
+    background-color: #F8F8F8;
+    color: #29B24E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.b-2{
+    border-radius: 12px;
+    padding: 13px 26px;
+    border: 1px solid #29B24E;
+    background-color: #29B24E;
+    color: #F8F8F8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.fix{
+    display: flex;
+
 }

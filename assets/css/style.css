@@ -500,5 +500,10 @@ footer{
 }
 .fix{
     display: flex;
-
+}
+.desc h1{
+    color: black;
+}
+.section3-div h2, .section3-div h3{
+    color: black;
 }
